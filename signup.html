@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sign Up for Zahoor - Elegant Modest Fashion for Women">
+  
+  <title>Zahoor - Sign Up</title>
+  
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="auth-container">
+    <form class="auth-form" id="signup-form" autocomplete="off">
+      <h2>Create Your Account</h2>
+      <input type="text" id="signup-name" placeholder="Full Name" required>
+      <input type="email" id="signup-email" placeholder="Email" required>
+      <input type="password" id="signup-password" placeholder="Password" required>
+      <input type="password" id="signup-confirm-password" placeholder="Confirm Password" required>
+      <button type="submit">Sign Up</button>
+      <p>Already have an account? <a href="signin.html">Sign In</a></p>
+    </form>
+  </div>
+
+  <!-- Supabase -->
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+
+  <!-- Include the authentication scripts -->
+  <script src="supabase-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

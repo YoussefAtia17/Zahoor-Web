@@ -1,0 +1,18 @@
+<svg width="355" height="180" viewBox="0 0 355 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue flower logo - positioned at top center -->
+  <g transform="translate(121, 8)">
+    <!-- Flower petals - large size for maximum impact -->
+    <path d="M56 56 C34 34, 11 41, 23 69 C11 96, 34 103, 56 80 C79 103, 101 96, 90 69 C101 41, 79 34, 56 56 Z" fill="#1e90ff" opacity="0.9"/>
+    <path d="M56 56 C45 28, 28 36, 36 64 C28 91, 45 101, 56 74 C68 101, 85 91, 76 64 C85 36, 68 28, 56 56 Z" fill="#4169e1" opacity="0.8"/>
+    <path d="M56 56 C50 36, 36 44, 44 64 C36 85, 50 91, 56 70 C63 91, 76 85, 69 64 C76 44, 63 36, 56 56 Z" fill="#0066cc" opacity="0.9"/>
+    <!-- Center -->
+    <circle cx="56" cy="56" r="11" fill="#ffffff" opacity="0.9"/>
+    <circle cx="56" cy="56" r="5.5" fill="#1e90ff"/>
+  </g>
+
+  <!-- ZAHOOR text - positioned below flower, centered -->
+  <text x="177" y="143" font-family="'Poppins', Arial, sans-serif" font-size="40" font-weight="700" fill="#2d3748" letter-spacing="3px" text-anchor="middle">ZAHOOR</text>
+
+  <!-- GRACE IN STYLE text - positioned below ZAHOOR, centered -->
+  <text x="177" y="166" font-family="'Poppins', Arial, sans-serif" font-size="16" font-weight="400" fill="#666666" letter-spacing="3px" text-anchor="middle">GRACE IN STYLE</text>
+</svg>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zahoor Hijabs Collection - Premium Quality Hijabs">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  
+  <title>Zahoor - Hijabs Collection</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts - Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="zahoor-logo.svg" alt="Zahoor - Grace in Style" class="logo-image">
+      </div>
+      <nav>
+        <ul>
+          <li style="--i:0"><a href="index.html">Home</a></li>
+          <li style="--i:1"><a href="index.html#collections">Collections</a></li>
+          <li style="--i:2"><a href="index.html#bestsellers">Best Sellers</a></li>
+          <li style="--i:3"><a href="index.html#about">About Us</a></li>
+          <li style="--i:4"><a href="index.html#contact">Contact</a></li>
+          <li style="--i:5"><a href="signin.html" id="nav-signin">Sign In</a></li>
+          <li style="--i:6"><a href="signup.html" id="nav-signup">Sign Up</a></li>
+        </ul>
+      </nav>
+      <div id="profile-box" style="display:none"></div>
+    </header>
+
+    <main>
+      <!-- Breadcrumb -->
+      <section class="breadcrumb">
+        <div class="breadcrumb-content">
+          <a href="index.html">Home</a>
+          <i class="fas fa-chevron-right"></i>
+          <a href="index.html#collections">Collections</a>
+          <i class="fas fa-chevron-right"></i>
+          <span>Hijabs</span>
+        </div>
+      </section>
+
+      <!-- Page Header -->
+      <section class="page-header">
+        <div class="page-header-content">
+          <h1 class="page-title">
+            <i class="fas fa-leaf"></i>
+            Hijabs Collection
+          </h1>
+          <p class="page-description">
+            Discover our premium collection of hijabs, crafted with the finest materials 
+            and designed for the modern modest woman. Each piece combines elegance, comfort, and style.
+          </p>
+        </div>
+      </section>
+
+      <!-- Products Grid -->
+      <section class="products-section">
+        <div class="products-container">
+          <div class="products-header">
+            <h2>Our Hijabs</h2>
+            <div class="products-count">
+              <span id="products-count">8 Products</span>
+            </div>
+          </div>
+
+          <div class="products-grid" id="hijabs-products">
+            <!-- Products will be loaded here by JavaScript -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="footer-content">
+        <div class="footer-contact-container">
+          <div class="contact-logo">
+            <i class="fas fa-headset"></i>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Gamal Abd Al Nasser , New Cairo , Cairo, Egypt</p>
+            <p><i class="fas fa-phone"></i> +201068602140</p>
+            <p><i class="fas fa-envelope"></i> zahraasherif90@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Zahoor - Grace in Style. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Supabase -->
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+
+  <!-- JavaScript -->
+  <script src="supabase-config.js"></script>
+  <script src="script.js"></script>
+  <script src="products.js"></script>
+</body>
+</html>
